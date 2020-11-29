@@ -3,6 +3,10 @@
 @import 'homepage';
 @import 'collection-item';
 @import 'collection-preview';
+@import 'header';
+@import 'sign-in-page';
+@import 'form-input';
+@import 'custom-button';
 
 body {
   margin: 0;
@@ -11,6 +15,14 @@ body {
   font-family: 'Open Sans Condensed';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 code {
