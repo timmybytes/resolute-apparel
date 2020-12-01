@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { auth } from '../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../assets/resolute-apparel-logo.svg';
 
-const Header = (currentUser) => (
+const Header = ({ currentUser }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
