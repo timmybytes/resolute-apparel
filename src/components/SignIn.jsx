@@ -12,14 +12,19 @@ class SignIn extends React.Component {
       password: '',
     };
   }
+
   handleSubmit = (event) => {
     event.preventDefault();
+
     this.setState({ email: '', password: '' });
   };
+
   handleChange = (event) => {
     const { value, name } = event.target;
+
     this.setState({ [name]: value });
   };
+
   render() {
     return (
       <div className='sign-in'>
@@ -32,23 +37,23 @@ class SignIn extends React.Component {
             type='email'
             handleChange={this.handleChange}
             value={this.state.email}
-            aria-label={'email'}
-            aria-required='true'
             label='email'
             required
           />
           <FormInput
             name='password'
             type='password'
-            aria-label={'password'}
-            aria-required='true'
-            value={this.state.email}
+            value={this.state.password}
+            handleChange={this.handleChange}
             label='password'
-            onChange={this.handleChange}
             required
           />
-          <CustomButton type='submit'>Sign in</CustomButton>
-          <CustomButton onClick={signInWithGoogle}>Sign in with Google</CustomButton>
+          <div className='buttons'>
+            <CustomButton type='submit'> Sign in </CustomButton>
+            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+              Sign in with Google
+            </CustomButton>
+          </div>
         </form>
       </div>
     );

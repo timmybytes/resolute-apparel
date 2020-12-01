@@ -8,6 +8,10 @@
 @import 'form-input';
 @import 'custom-button';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 20px 60px;
