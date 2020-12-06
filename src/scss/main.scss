@@ -1,17 +1,18 @@
 @import 'menu-item';
 @import 'directory';
-@import 'homepage';
 @import 'collection-item';
 @import 'collection-preview';
 @import 'header';
-@import 'sign-in';
-@import 'sign-up';
-@import 'sign-in-and-sign-up-page';
 @import 'form-input';
 @import 'custom-button';
-@import 'cart-icon';
-@import 'cart-dropdown';
-@import 'cart-item';
+@import 'cart/cart-icon';
+@import 'cart/cart-dropdown';
+@import 'cart/cart-item';
+@import 'pages/home-page';
+@import 'pages/sign-in-and-out-page/sign-in';
+@import 'pages/sign-in-and-out-page/sign-up';
+@import 'pages/sign-in-and-out-page/sign-in-and-sign-up-page';
+@import 'pages/checkout-page';
 
 * {
   box-sizing: border-box;
