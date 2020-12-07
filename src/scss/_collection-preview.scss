@@ -3,12 +3,12 @@
   flex-direction: column;
   margin-bottom: 30px;
 
-  .title {
+  &__title {
     font-size: 28px;
     margin-bottom: 25px;
   }
 
-  .preview {
+  &__preview {
     display: flex;
     justify-content: space-between;
   }

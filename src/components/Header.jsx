@@ -11,22 +11,22 @@ import { selectCurrentUser } from '../redux/user/user.selectors';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
-      <Logo className='logo' />
+    <Link className='header__logo-container' to='/'>
+      <Logo className='header__logo-container-logo' />
     </Link>
-    <div className='options'>
-      <Link className='option' to='/shop'>
+    <div className='header__options'>
+      <Link className='header__options-option' to='/shop'>
         SHOP
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='header__options-option' to='/shop'>
         CONTACT
       </Link>
       {currentUser ? (
-        <div className='option' onClick={() => auth.signOut()}>
+        <div className='header__options-option' onClick={() => auth.signOut()}>
           SIGN OUT
         </div>
       ) : (
-        <Link className='option' to='/signin'>
+        <Link className='header__options-option' to='/signin'>
           SIGN IN
         </Link>
       )}

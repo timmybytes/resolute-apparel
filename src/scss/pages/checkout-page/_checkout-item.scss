@@ -7,7 +7,7 @@
   font-size: 20px;
   align-items: center;
 
-  .image-container {
+  &__image-container {
     width: 23%;
     padding-right: 15px;
 
@@ -16,18 +16,33 @@
       height: 100%;
     }
   }
-  .name,
-  .quantity,
-  .price {
+  &__name,
+  &__quantity,
+  &__price {
     width: 23%;
   }
 
-  .quantity {
-    padding-left: 20px;
-  }
+  &__quantity {
+    display: flex;
+    // padding-left: 20px;
+    align-items: center;
+    &-adjuster {
+      cursor: pointer;
+      // display: inline-block;
+      // padding: 1px 6px;
+    }
 
-  .remove-button {
-    padding-left: 12px;
+    .value {
+      margin: 0 10px;
+    }
+  }
+  &__remove-button {
+    background-color: rgb(209, 83, 83);
+    color: black;
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin-left: 12px;
+    font-weight: bolder;
     cursor: pointer;
   }
 }
