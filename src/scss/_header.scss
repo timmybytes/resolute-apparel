@@ -8,12 +8,16 @@
   &__logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
-    padding-left: 0;
+    padding: 15px;
+    // padding-left: 0;
 
     &-logo {
       width: 50px;
       height: auto;
+      transition: all 0.3s;
+      &:hover {
+        width: 55px;
+      }
     }
   }
 

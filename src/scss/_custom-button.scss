@@ -33,13 +33,24 @@
   }
 
   &.inverted {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: 1px solid black;
+    border: 1px solid white;
     &:hover {
       background-color: black;
       color: white;
-      border: none;
+      transition: all 0.3s;
+      // prettier-ignore
+      box-shadow:
+        0.5px 0.5px white,
+        1px 1px white,
+        1.5px 1.5px white,
+        2px 2px white,
+        2.5px 2.5px white,
+        3px 3px white,
+        3.5px 3.5px white,
+        4px 4px white;
     }
   }
 }
