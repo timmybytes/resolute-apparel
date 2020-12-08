@@ -27,11 +27,7 @@ Resolute Apparel is a React mock-eCommerce site built from React, React-Router, 
 
 ### React
 
-Resolute Apparel is bootstrapped from `create-react-app`. It does not currently use Hooks, as state is managed by Redux.
-
-#### Router
-
-[React-Router](https://reactrouter.com/) handles the url routing with [HashRouter](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/HashRouter.md) (rather than the more typical BrowserRouter) to better integrate with GitHub Pages, though there might be some wonkiness in terms of url addresses because of the nature of how HashRouter works.
+Resolute Apparel is bootstrapped from `create-react-app`. It does not currently use Hooks, as state is managed by Redux. [React-Router](https://reactrouter.com/) handles the url routing with [HashRouter](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/HashRouter.md) (rather than the more typical BrowserRouter) to better integrate with GitHub Pages, though there might be some wonkiness in terms of url addresses because of the nature of how HashRouter works.
 
 ### Styling
 
@@ -39,11 +35,7 @@ The styling is handled with [SCSS](https://sass-lang.com/), using [BEM](http://g
 
 ### Redux
 
-[Redux](https://redux.js.org/) manages state for items added to the cart, rendered section previews, displaying the Shop, and handling user logged in state.
-
-#### Persistence
-
-[Redux Persist](https://github.com/rt2zz/redux-persist) creates persistent state with `localStorage`, saving added cart items and user credentials through refreshes and navigating away from the site.
+[Redux](https://redux.js.org/) manages state for items added to the cart, rendered section previews, displaying the Shop, and handling user logged in state. Redux Persist](<https://github.com/rt2zz/redux-persist>) creates persistent state with `localStorage`, saving added cart items and user credentials through refreshes and navigating away from the site.
 
 ### Firebase
 
