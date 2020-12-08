@@ -41,13 +41,13 @@ class App extends React.Component {
       <>
         <Header />
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
-          <Route path={`${process.env.PUBLIC_URL}/shop`} component={ShopPage} />
-          <Route exact path={`${process.env.PUBLIC_URL}/checkout`} component={CheckoutPage} />
+          <Route exact path={`/`} component={HomePage} />
+          <Route path={`/shop`} component={ShopPage} />
+          <Route exact path={`/checkout`} component={CheckoutPage} />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/signin`}
-            render={() => (this.props.currentUser ? <Redirect to='/' /> : <SignInPage />)}
+            path={`/signin`}
+            render={() => (this.props.currentUser ? <Redirect to={`/`} /> : <SignInPage />)}
           />
         </Switch>
       </>

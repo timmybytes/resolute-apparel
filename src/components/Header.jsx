@@ -11,11 +11,11 @@ import { selectCurrentUser } from '../redux/user/user.selectors';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='header__logo-container' to='/'>
+    <Link className='header__logo-container' to={`/`}>
       <Logo className='header__logo-container-logo' />
     </Link>
     <div className='header__options'>
-      <Link className='header__options-option' to='/shop'>
+      <Link className='header__options-option' to={`/shop`}>
         SHOP
       </Link>
       {/* TODO: Build mock Contact Page */}
@@ -27,7 +27,7 @@ const Header = ({ currentUser, hidden }) => (
           SIGN OUT
         </div>
       ) : (
-        <Link className='header__options-option' to='/signin'>
+        <Link className='header__options-option' to={`/signin`}>
           SIGN IN
         </Link>
       )}
