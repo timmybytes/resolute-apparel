@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/resolute-apparel/static/css/main.1a1badef.chunk.css",
+    "main.js": "/resolute-apparel/static/js/main.a47f8857.chunk.js",
+    "main.js.map": "/resolute-apparel/static/js/main.a47f8857.chunk.js.map",
+    "runtime-main.js": "/resolute-apparel/static/js/runtime-main.f98cef66.js",
+    "runtime-main.js.map": "/resolute-apparel/static/js/runtime-main.f98cef66.js.map",
+    "static/js/2.a6a9ce75.chunk.js": "/resolute-apparel/static/js/2.a6a9ce75.chunk.js",
+    "static/js/2.a6a9ce75.chunk.js.map": "/resolute-apparel/static/js/2.a6a9ce75.chunk.js.map",
+    "index.html": "/resolute-apparel/index.html",
+    "static/css/main.1a1badef.chunk.css.map": "/resolute-apparel/static/css/main.1a1badef.chunk.css.map",
+    "static/js/2.a6a9ce75.chunk.js.LICENSE.txt": "/resolute-apparel/static/js/2.a6a9ce75.chunk.js.LICENSE.txt",
+    "static/media/resolute-apparel-logo.fafd1d0b.svg": "/resolute-apparel/static/media/resolute-apparel-logo.fafd1d0b.svg",
+    "static/media/shopping-bag.a688874f.svg": "/resolute-apparel/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f98cef66.js",
+    "static/js/2.a6a9ce75.chunk.js",
+    "static/css/main.1a1badef.chunk.css",
+    "static/js/main.a47f8857.chunk.js"
+  ]
+}
