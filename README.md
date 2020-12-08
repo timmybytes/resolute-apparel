@@ -9,6 +9,7 @@ Resolute Apparel
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/timmybytes/resolute-apparel">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/timmybytes/resolute-apparel">
   <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/timmybytes/resolute-apparel/github-pages">
+  <img alt="GitHub" src="https://img.shields.io/github/license/timmybytes/resolute-apparel">
 </div>
 
 <div align="center">
