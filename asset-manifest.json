@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/resolute-apparel/static/css/main.1a1badef.chunk.css",
-    "main.js": "/resolute-apparel/static/js/main.44b20c6c.chunk.js",
-    "main.js.map": "/resolute-apparel/static/js/main.44b20c6c.chunk.js.map",
+    "main.js": "/resolute-apparel/static/js/main.f84469b0.chunk.js",
+    "main.js.map": "/resolute-apparel/static/js/main.f84469b0.chunk.js.map",
     "runtime-main.js": "/resolute-apparel/static/js/runtime-main.f98cef66.js",
     "runtime-main.js.map": "/resolute-apparel/static/js/runtime-main.f98cef66.js.map",
     "static/js/2.94ce20fd.chunk.js": "/resolute-apparel/static/js/2.94ce20fd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f98cef66.js",
     "static/js/2.94ce20fd.chunk.js",
     "static/css/main.1a1badef.chunk.css",
-    "static/js/main.44b20c6c.chunk.js"
+    "static/js/main.f84469b0.chunk.js"
   ]
 }
