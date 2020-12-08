@@ -6,6 +6,10 @@ import rootReducer from './root-reducer';
 
 const middlewares = [logger];
 
+if (process.env.NODE_ENV === 'production') {
+  middlewares.push(logger);
+}
+
 export const store = createStore(
   rootReducer,
   applyMiddleware(...middlewares) + window.__REDUX_DEVTOOLS_EXTENSION__ &&

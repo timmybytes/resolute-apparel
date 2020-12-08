@@ -29,16 +29,18 @@
     font-size: 36px;
   }
 
-  button {
-    margin-left: auto;
-    margin-top: 50px;
-  }
-
   &__test-warning {
     text-align: center;
     margin-top: 40px;
     font-size: 24px;
     color: red;
     font-weight: 800;
+  }
+  .StripeCheckout {
+    padding: 30px;
+    :first-child {
+      background-color: red;
+      background-image: none;
+    }
   }
 }

@@ -34,7 +34,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       Please use the following test credit card for payments: <br />
       CC: 4242 4242 4242 4242 - Exp: Any future date - CVV: Any three digits
     </div>
-    <StripeCheckoutButton price={total} />
+    <StripeCheckoutButton className='checkout-page__stripe-button' price={total} />
   </div>
 );
 
