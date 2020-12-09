@@ -9,14 +9,15 @@ import { selectCartItems } from '../redux/cart/cart.selectors';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => (
   <div className='cart-dropdown'>
-    <div className='cart-items'>
+    <div className='cart-dropdown__cart-items'>
       {cartItems.length ? (
         cartItems.map(cartItem => <CartItem key={cartItem.id} item={cartItem} />)
       ) : (
-        <span className='empty-message'>Your cart is empty</span>
+        <span className='cart-dropdown__empty-message'>Your cart is empty</span>
       )}
     </div>
     <CustomButton
+      className='cart-dropdown__button'
       onClick={() => {
         history.push('/checkout');
         dispatch(toggleCartHidden());

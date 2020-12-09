@@ -1,3 +1,5 @@
+@import '../custom-button';
+
 .collection-item {
   width: 22vw;
   display: flex;
@@ -15,6 +17,7 @@
   }
 
   .custom-button {
+    @extend .custom-button;
     width: 80%;
     opacity: 0.7;
     position: absolute;
