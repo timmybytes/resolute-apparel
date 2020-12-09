@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/assets/resolute-apparel-logo.svg" alt="Resolute Apparel logo" />
+  <img src="./src/assets/resolute-apparel-social-card.png" alt="Resolute Apparel logo" />
   <br />
 Resolute Apparel
 </h1>
