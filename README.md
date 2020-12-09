@@ -35,7 +35,7 @@ The styling is handled with [SCSS](https://sass-lang.com/), using [BEM](http://g
 
 ### Redux
 
-[Redux](https://redux.js.org/) manages state for items added to the cart, rendered section previews, displaying the Shop, and handling user logged in state. Redux Persist](<https://github.com/rt2zz/redux-persist>) creates persistent state with `localStorage`, saving added cart items and user credentials through refreshes and navigating away from the site.
+[Redux](https://redux.js.org/) manages state for items added to the cart, rendered section previews, displaying the Shop, and handling user logged in state. [Redux Persist](<https://github.com/rt2zz/redux-persist>) creates persistent state with `localStorage`, saving added cart items and user credentials through refreshes and navigating away from the site.
 
 ### Firebase
 
