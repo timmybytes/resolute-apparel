@@ -21,6 +21,12 @@ Resolute Apparel
   <a href="https://timmybytes.com">Timothy Merritt</a>
 </p>
 
+<br />
+
+_Note: This project is fully-functional on desktop, but is still a WIP for mobile responsiveness. It's best viewed on a wide screen for now._
+
+<br />
+
 ## About
 
 Resolute Apparel is a React mock-eCommerce site built from React, React-Router, Redux, SCSS, Firebase, and Stripe. You can view the [demo site here](https://timmybytes.github.io/resolute-apparel). The goal of this project was to practice using a larger tech stack, and to employ
